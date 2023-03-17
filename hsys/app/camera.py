@@ -20,7 +20,7 @@ class VideoCamera(object):
         success, image = self.video.read()
         frame_flip = cv2.flip(image, 1)
         ret, jpeg = cv2.imencode('.jpg', frame_flip)
-        return jpeg.tobytes()
+        return jpeg.tobytes(),image,success
 
 
 
