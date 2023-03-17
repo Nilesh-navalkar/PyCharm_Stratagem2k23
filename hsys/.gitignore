@@ -1,0 +1,15 @@
+*.jpg
+*.webp
+*.sqlite3
+__pycache__
+.dist
+*.key
+*.crt
+*.csr
+*.log
+*.pyc
+*.pyo
+*.docx
+*.pdf
+tempCodeRunnerFile.py
+media/
